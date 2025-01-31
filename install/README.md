@@ -27,20 +27,20 @@ Once you ensure you have these dependencies, please follow the following steps:
 
 1. Clone the Varphi source code repository:
 
-```
+```shell-session
 $ git clone https://github.com/varphi-lang/varphi.git
 ```
 
 2. Change into the `varphi` directory:
 
-```shell
+```shell-session
 $ cd varphi
 ```
 
 3. Build the `vpi` executable:
 
-```
-make executable
+```shell-session
+$ make executable
 ```
 
 The Varphi Interpreter should then be available under `bin/vpi` (or `bin\vpi.exe` if you are on Windows), assuming you're in the `varphi` directory.
