@@ -9,6 +9,8 @@ Varphi has an official interpreter, with precompiled binaries available for down
 * Ubuntu 20.04, 22.04, and 24.04
 * Windows Server 2019, 2022, and 2025
 
+No prerequisite programs are required to install and use these binaries.
+
 ### Building From Source
 
 {% hint style="info" %}
