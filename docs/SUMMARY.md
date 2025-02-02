@@ -10,6 +10,7 @@
 * [Head Directions](the-varphi-language-standard/head-directions.md)
 * [Lines](the-varphi-language-standard/lines.md)
 * [Comments](the-varphi-language-standard/comments.md)
+* [Varphi Programs](the-varphi-language-standard/varphi-programs.md)
 * [Addressing Ambiguities](the-varphi-language-standard/addressing-ambiguities.md)
 
 ## Writing Varphi Programs
@@ -26,3 +27,4 @@
 * [Turing Machine Heads](turing-machine-theory/turing-machine-heads.md)
 * [Turing Machine States](turing-machine-theory/turing-machine-states.md)
 * [Turing Machines](turing-machine-theory/turing-machines.md)
+* [Nondeterministic Turing Machines](turing-machine-theory/nondeterministic-turing-machines.md)
