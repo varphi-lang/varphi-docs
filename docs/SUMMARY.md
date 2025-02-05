@@ -12,12 +12,6 @@
 * [Comments](the-varphi-language-standard/comments.md)
 * [Varphi Programs](the-varphi-language-standard/varphi-programs.md)
 * [Addressing Ambiguities](the-varphi-language-standard/addressing-ambiguities.md)
-* [More Examples](the-varphi-language-standard/more-examples/README.md)
-  * [Addition By One](the-varphi-language-standard/more-examples/addition-by-one.md)
-  * [Add Two Numbers](the-varphi-language-standard/more-examples/add-two-numbers.md)
-  * [Multiplication By Two](the-varphi-language-standard/more-examples/multiplication-by-two.md)
-  * [Rock, Paper, Scissors](the-varphi-language-standard/more-examples/rock-paper-scissors.md)
-  * [Coin Flip](the-varphi-language-standard/more-examples/coin-flip.md)
 
 ## Writing Varphi Programs
 
@@ -25,6 +19,12 @@
 * [Running Varphi Programs](writing-varphi-programs/running-varphi-programs.md)
 * [Debugging Varphi Programs](writing-varphi-programs/debugging-varphi-programs.md)
 * [Good Practices](writing-varphi-programs/good-practices.md)
+* [More Examples](writing-varphi-programs/more-examples/README.md)
+  * [Addition By One](writing-varphi-programs/more-examples/addition-by-one.md)
+  * [Add Two Numbers](writing-varphi-programs/more-examples/add-two-numbers.md)
+  * [Multiplication By Two](writing-varphi-programs/more-examples/multiplication-by-two.md)
+  * [Rock, Paper, Scissors](writing-varphi-programs/more-examples/rock-paper-scissors.md)
+  * [Coin Flip](writing-varphi-programs/more-examples/coin-flip.md)
 
 ## Turing Machine Theory
 
