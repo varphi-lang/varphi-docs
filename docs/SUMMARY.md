@@ -12,6 +12,12 @@
 * [Comments](the-varphi-language-standard/comments.md)
 * [Varphi Programs](the-varphi-language-standard/varphi-programs.md)
 * [Addressing Ambiguities](the-varphi-language-standard/addressing-ambiguities.md)
+* [More Examples](the-varphi-language-standard/more-examples/README.md)
+  * [Addition By One](the-varphi-language-standard/more-examples/addition-by-one.md)
+  * [Add Two Numbers](the-varphi-language-standard/more-examples/add-two-numbers.md)
+  * [Multiplication By Two](the-varphi-language-standard/more-examples/multiplication-by-two.md)
+  * [Rock, Paper, Scissors](the-varphi-language-standard/more-examples/rock-paper-scissors.md)
+  * [Coin Flip](the-varphi-language-standard/more-examples/coin-flip.md)
 
 ## Writing Varphi Programs
 
