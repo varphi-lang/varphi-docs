@@ -11,13 +11,13 @@ The Varphi Command-Line Debugger ships with the Varphi interpreter, and can be u
 Let's run the Varphi program in debug mode. Run the following command
 
 ```shell-session
-$ <PATH TO vpi> -d add1.vp
+$ <PATH TO vpi> -d add.vp
 ```
 
 Again, you should see no output, since you must supply the input tape first. Let's do that:
 
 ```shell-session
-$ <PATH TO vpi> -d add1.vp
+$ <PATH TO vpi> -d add.vp
 111011
 State:  qDeleteFirstTallyOrHalt
 Tape:  [{1}]11011
