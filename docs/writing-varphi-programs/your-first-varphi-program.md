@@ -8,7 +8,7 @@ The objective of this tutorial is to show how to write a simple program with Var
 
 ## Objective of the Turing Machine
 
-The Turing machine we will design for this guide performs binary addition (that is, addition of two numbers), specifically on numbers from the set of positive integers, $$\mathbb{Z}^+$$.
+The Turing machine we will design for this guide performs binary addition (that is, addition of two numbers), specifically on numbers from the set of positive integers, $$\mathbb{Z}^+$$ in a more unique way (a very efficient way is given [here](more-examples/add-two-numbers.md)).
 
 ## Input and Output Representation Conventions
 
@@ -26,11 +26,11 @@ When thinking about how to design Turing machine algorithms, it often helps to t
 
 <figure><img src="../.gitbook/assets/TwoAndThreeOnTape.drawio (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-We would like to "merge" these two numbers to form a contiguous block with five tallies on it. One may think about this as perhaps shifting all the tallies of the left (or right) number to the right (or left) by one tape cell. Another way you can think about this is by "teleporting" the left (or right) number to appear immediately to the right (or left) of the right (or left) number. This is depicted below
+We would like to "merge" these two numbers to form a contiguous block with five tallies on it. One may think about this as perhaps shifting all the tallies of the left (or right) number to the right (or left) by one tape cell. The way we will implement it is by "teleporting" the left (or right) number to appear immediately to the right (or left) of the right (or left) number. This is depicted below. Again, this is by no means the most efficient way to do this, but we implement it in this way for demonstration purposes.
 
 <figure><img src="../.gitbook/assets/TwoAndThreeOnTape.drawio (1) (3).png" alt=""><figcaption></figcaption></figure>
 
-A way to perform such an algorithm is to do transfer each individual tally to the left of the right number, one-by-one. That is, for every tally in the left number, delete it, then go to the rightmost tally of the right number and replace the blank cell to the right of it with a tally.&#x20;
+A way to perform such an algorithm is to transfer each individual tally to the left of the right number, one-by-one. That is, for every tally in the left number, delete it, then go to the rightmost tally of the right number and replace the blank cell to the right of it with a tally.&#x20;
 
 Let's phrase this in a more "Turing-machine-like" way. For the purposes of this algorithm, let's call the blank tape cell separating the two numbers on the input tape the _middle blank_. Now recall that the Turing machine's head always starts off at the leftmost tally. So, what we'll do is replace that tally with a blank, then pass all of the remaining tallies of the left number (moving the head to the right) until we hit the middle blank. Once we hit this middle blank, we'll skip it, then skip all of the tallies of the right number (again, still moving the head to the right) until we hit the first blank to the right of the right number. Then, write a tally to this blank tape cell. Now we have successfully transferred the first tally of the left number to the right place. To start working on the rest of the tallies of the left number, skip through the tallies of the right number (moving the head left this time) until we hit the middle blank. Once we hit the middle blank, we'll skip it, then skip all of the tallies of the left number (again, still moving the head to the left) until we hit the first blank to the left of the left number. Then, move the head one position to the right. If the tape cell at this tape cell is blank, then we've successfully moved all the tallies of the left number to the right of the right number. Otherwise, we still have tallies to move, and we can restart the same process we took with the initial tally we moved.
 
