@@ -34,7 +34,7 @@ As you can see from the output of the debugger, you can step through the program
 In case you're interested, here's the whole session output for this debugger run:
 
 ```shell-session
-$ <PATH TO vpi> -d add1.vp
+$ <PATH TO vpi> -d add.vp
 111011
 State:  qDeleteFirstTallyOrHalt
 Tape:  [{1}]11011
