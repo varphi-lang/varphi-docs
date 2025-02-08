@@ -18,6 +18,7 @@
 * [Your First Varphi Program](writing-varphi-programs/your-first-varphi-program.md)
 * [Running Varphi Programs](writing-varphi-programs/running-varphi-programs.md)
 * [Debugging Varphi Programs](writing-varphi-programs/debugging-varphi-programs.md)
+* [The Varphi VS Code Extension](writing-varphi-programs/the-varphi-vs-code-extension.md)
 * [Good Practices](writing-varphi-programs/good-practices.md)
 * [More Examples](writing-varphi-programs/more-examples/README.md)
   * [Addition By One](writing-varphi-programs/more-examples/addition-by-one.md)
@@ -25,7 +26,6 @@
   * [Multiplication By Two](writing-varphi-programs/more-examples/multiplication-by-two.md)
   * [Rock, Paper, Scissors](writing-varphi-programs/more-examples/rock-paper-scissors.md)
   * [Coin Flip](writing-varphi-programs/more-examples/coin-flip.md)
-* [The Varphi VS Code Extension](writing-varphi-programs/the-varphi-vs-code-extension.md)
 
 ## Turing Machine Theory
 

@@ -42,7 +42,7 @@ $ <PATH TO vpi> add1.vp
 ```
 
 {% hint style="info" %}
-Remark: The Varphi Interpreter does not produce any output when you execute it on an input program, since it will be waiting for the input tape on standard input. No prompt appear that asks for this. It is common to confuse this as the interpreter "loading" or "hanging," when in reality it is just waiting for the input tape.
+Remark: The Varphi Interpreter does not produce any output when you execute it on an input program, since it will be waiting for the input tape on standard input. No prompt appears that asks for this. It is common to confuse this as the interpreter "loading" or "hanging," when in reality it is just waiting for the input tape.
 {% endhint %}
 
 Now recall the output convention from the last section:
