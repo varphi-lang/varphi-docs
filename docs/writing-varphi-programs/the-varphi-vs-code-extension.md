@@ -12,36 +12,36 @@ The extension will only recognize files with the ".vp" extension as being Varphi
 
 Once you create a Varphi file and open it in VS Code, you should see several indicators that the extension is functioning properly. The first of these is that the file should be given a unique icon in the file's tab and in the explorer panel. For example, here's how the tab of a file named "merge.vp" will look like:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The file tab for a file "merge.vp" opened in VS Code with the Varphi extension activated.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 And here's what it will appear as in the explorer panel:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>"merge.vp" in the explorer panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Another indicator is that the language mode (usually displayed in the bottom-right corner of the window) will indicate that the current language mode is "Varphi":
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>The language mode for a Varphi file opened in VS Code.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The third indicator is that there will be two button in the top-left of the window.&#x20;
+The third indicator is that there will be two buttons in the top-left of the window.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Buttons for debugging and running the current Varphi program.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 These buttons allow for debugging and running the current program, respectively.
 
 The final indicator is that the source code will be colored. For example:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Syntax coloring for Varphi programs.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Running Varphi Programs in VS Code
 
 With a Varphi file opened, click the "Run Program" button in the top-left corner of the window, shown below
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>The "Run Program" button.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 You will then be prompted for the input tape:\
 
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Prompt for the input tape.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 After inputting this and pressing Enter, you may (if this is your first time using the extension) receive a prompt asking for the path to the Varphi Interpreter. Please input the path to the `vpi`  binary you installed earlier.
 
@@ -61,11 +61,13 @@ You will then be prompted for the input tape:
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Prompt for the input tape.</p></figcaption></figure>
 
+After inputting this and pressing Enter, you may (if this is your first time using the extension) receive a prompt asking for the path to the Varphi Interpreter. Please input the path to the `vpi`  binary you installed earlier.
+
 Next, from the side-menu, open the "Run and Debug" panel:
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>\</p></figcaption></figure>
 
-Under expand the VARIABLES -> Machine Variables menu, and you should see the following variables:
+Now expand the VARIABLES -> Machine Variables menu in the "Run and Debug panel, and you should see the following variables:
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,7 +98,7 @@ You can stop the debugging session with the "Stop" button
 
 ### Debugging with Breakpoints
 
-The Varphi VS Code extension also supports setting breakpoints. To do this, you can (before starting the debugging session) hover to the left of the line(s) you wish to set a breakpoint at in the Varphi source and then click the red dot:
+The Varphi VS Code extension also supports setting breakpoints for debugging sessions. To do this, you can (before starting the debugging session) hover to the left of the line(s) you wish to set a breakpoint at in the Varphi source and then click the red dot:
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
