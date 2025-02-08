@@ -1,6 +1,6 @@
 # Get the Varphi Interpreter
 
-### Downloading through GitHub Releases
+### Option 1: Downloading through GitHub Releases (Recommended)
 
 Varphi has an official interpreter, with precompiled binaries available for download on Varphi's [GitHub Releases page](https://github.com/varphi-lang/varphi/releases/tag/v1.0.0). These binaries have been compiled for the following operating systems:
 
@@ -11,7 +11,7 @@ Varphi has an official interpreter, with precompiled binaries available for down
 
 No prerequisite programs are required to install and use these binaries.
 
-### Building From Source
+### Option 2: Building From Source
 
 {% hint style="info" %}
 If your operating system is listed above, it is strongly recommended to download a precompiled version of the Varphi Interpreter.&#x20;
