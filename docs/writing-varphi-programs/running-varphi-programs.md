@@ -41,7 +41,11 @@ $ <PATH TO vpi> add1.vp
 000011111
 ```
 
-Recall the output convention from the last section:
+{% hint style="info" %}
+Remark: The Varphi Interpreter does not produce any output when you execute it on an input program, since it will be waiting for the input tape on standard input. No prompt appear that asks for this. It is common to confuse this as the interpreter "loading" or "hanging," when in reality it is just waiting for the input tape.
+{% endhint %}
+
+Now recall the output convention from the last section:
 
 > There shall only be one contiguous block of tallies, which will represent the output of the Turing machine. If there are $$n$$ tallies in the contiguous block, then the number being represented by the tape is $$n$$.
 
