@@ -25,6 +25,7 @@
   * [Multiplication By Two](writing-varphi-programs/more-examples/multiplication-by-two.md)
   * [Rock, Paper, Scissors](writing-varphi-programs/more-examples/rock-paper-scissors.md)
   * [Coin Flip](writing-varphi-programs/more-examples/coin-flip.md)
+* [The Varphi VS Code Extension](writing-varphi-programs/the-varphi-vs-code-extension.md)
 
 ## Turing Machine Theory
 
