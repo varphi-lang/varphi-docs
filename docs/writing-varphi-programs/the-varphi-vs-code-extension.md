@@ -10,7 +10,7 @@ This document assumes that you have the extension and all its prerequisites inst
 
 The extension will only recognize files with the ".vp" extension as being Varphi files. Thus, please ensure you name your Varphi files with this extension.
 
-Once you create a Varphi file and open it in Visual Studio code, you should see several indicators that the extension is functioning properly. The first of these is that the file should be given a unique icon in the file's tab and in the explorer panel. For example, here's how the tab of a file named "merge.vp" will look like:
+Once you create a Varphi file and open it in VS Code, you should see several indicators that the extension is functioning properly. The first of these is that the file should be given a unique icon in the file's tab and in the explorer panel. For example, here's how the tab of a file named "merge.vp" will look like:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The file tab for a file "merge.vp" opened in VS Code with the Varphi extension activated.</p></figcaption></figure>
 
