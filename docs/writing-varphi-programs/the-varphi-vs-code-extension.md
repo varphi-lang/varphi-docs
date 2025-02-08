@@ -18,7 +18,7 @@ And here's what it will appear as in the explorer panel:
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>"merge.vp" in the explorer panel.</p></figcaption></figure>
 
-Another indicator is that the language mode (usually displayed in the bottom-right corner of the window) will indicate "Varphi":
+Another indicator is that the language mode (usually displayed in the bottom-right corner of the window) will indicate that the current language mode is "Varphi":
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>The language mode for a Varphi file opened in VS Code.</p></figcaption></figure>
 
