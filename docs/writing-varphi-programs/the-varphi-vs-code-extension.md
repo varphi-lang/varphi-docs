@@ -45,6 +45,16 @@ You will then be prompted for the input tape:\
 
 After inputting this and pressing Enter, you may (if this is your first time using the extension) receive a prompt asking for the path to the Varphi Interpreter. Please input the path to the `vpi`  binary you installed earlier.
 
+{% hint style="danger" %}
+**IMPORTANT:** When entering the path to the Varphi Interpreter, **do not use quotes.**
+{% endhint %}
+
+If you need to change the path to the Varphi Interpreter in VS Code (which will be saved after the first time you input it), go to File -> Preferences -> Settings, then search for "varphi", and you should see the following setting:
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+You can enter the new path here to overwrite the saved one.&#x20;
+
 Next, click View -> Debug Console to open the Debug Console, where the output tape will be displayed:
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
