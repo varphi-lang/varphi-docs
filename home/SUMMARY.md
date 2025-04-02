@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Varphi](README.md)
+* [Varphi Programming Language](README.md)
